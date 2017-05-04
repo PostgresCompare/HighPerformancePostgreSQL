@@ -1,0 +1,6 @@
+- The extensive performance improvements in PostgreSQL 8.1 and 8.3 in particular shatter some earlier notions that the database server was slower than its main competitors.
+- There are still some situations where PostgreSQL's feature set results in slower query processing than some of the commercial databases it might otherwise displace.
+- If you're starting a new project using PostgreSQL, use the latest version possible (and strongly prefer to deploy 8.3 or later).
+- PostgreSQL works well in many common database applications, but certainly there are applications, it's not the best choice for.
+- Not everything you need to manage and optimize a PostgreSQL server will be included in a basic install. Be prepared to include some additional number of utilities that add features outside of what the core database aims to provide.
+- Performance tuning is best approached as a systematic, carefully measured practice.
